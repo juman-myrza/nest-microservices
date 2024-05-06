@@ -1,73 +1,50 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Reservation
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Overview
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+This project is a demonstration of a microservices architecture using Nest.js framework. It aims to showcase the scalability, modularity, and maintainability that microservices offer, combined with the productivity and flexibility of Nest.js.
 
-## Description
+## Features
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+- **Microservices Architecture**: The project is divided into small, independent services, each responsible for a specific domain or functionality.
+- **Nest.js Framework**: Utilizes Nest.js, a progressive Node.js framework for building efficient, reliable, and scalable server-side applications.
+- **Docker**: Docker containers are used to encapsulate each microservice, making deployment and scaling easier and more consistent.
+- **RESTful API**: Each microservice exposes a RESTful API, allowing easy communication between services.
+- **Database Integration**: Integrates with MongoDB.
+- **Authentication and Authorization**: Implements authentication and authorization mechanisms to secure the microservices and API endpoints.
+- **Payment**: Implements authentication and authorization mechanisms to secure the microservices and API endpoints.
+- **Logging and Monitoring**: Utilizes logging and monitoring tools to track and analyze the performance and behavior of the microservices.
+- **Testing**: Includes unit tests, integration tests, and possibly end-to-end tests to ensure the reliability and correctness of the microservices.
 
 ## Installation
 
-```bash
-$ npm install
-```
+1. **Clone the repository**:
 
-## Running the app
+   ```bash
+   git clone https://github.com/yourusername/project-name.git
+   ```
 
-```bash
-# development
-$ npm run start
+2. **Install dependencies**:
 
-# watch mode
-$ npm run start:dev
+   ```bash
+   cd project-name
+   npm install
+   ```
 
-# production mode
-$ npm run start:prod
-```
+3. **Environment Variables**:
 
-## Test
+   Copy the `.env.example` file to `.env` and fill in the required environment variables for your development, staging, and production environments.
 
-```bash
-# unit tests
-$ npm run test
+4. **Start the Services**:
 
-# e2e tests
-$ npm run test:e2e
+   ```bash
+   npm run start:dev
+   ```
 
-# test coverage
-$ npm run test:cov
-```
+## Usage
 
-## Support
+Describe how to use the APIs provided by the microservices. Include examples of requests and responses, authentication mechanisms, and any other relevant details.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Contact
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+For any inquiries or feedback, please contact [Jumanazar Nizamidinov](mailto:jumanazar.dev@gmail.com).
